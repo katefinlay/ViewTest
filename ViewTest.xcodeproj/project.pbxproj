@@ -19,6 +19,7 @@
 		51F95A0519C11D23006B5F17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F959ED19C11D22006B5F17 /* UIKit.framework */; };
 		51F95A0D19C11D23006B5F17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51F95A0B19C11D23006B5F17 /* InfoPlist.strings */; };
 		51F95A0F19C11D23006B5F17 /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F95A0E19C11D23006B5F17 /* ViewTestTests.m */; };
+		51F95A1A19C11EC9006B5F17 /* KFSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F95A1919C11EC9006B5F17 /* KFSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		51F95A0A19C11D23006B5F17 /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		51F95A0C19C11D23006B5F17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51F95A0E19C11D23006B5F17 /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		51F95A1819C11EC9006B5F17 /* KFSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFSimpleView.h; sourceTree = "<group>"; };
+		51F95A1919C11EC9006B5F17 /* KFSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				51F959F819C11D23006B5F17 /* KFAppDelegate.h */,
 				51F959F919C11D23006B5F17 /* KFAppDelegate.m */,
+				51F95A1819C11EC9006B5F17 /* KFSimpleView.h */,
+				51F95A1919C11EC9006B5F17 /* KFSimpleView.m */,
 				51F959FB19C11D23006B5F17 /* Images.xcassets */,
 				51F959F019C11D22006B5F17 /* Supporting Files */,
 			);
@@ -242,6 +247,7 @@
 			files = (
 				51F959F619C11D23006B5F17 /* main.m in Sources */,
 				51F959FA19C11D23006B5F17 /* KFAppDelegate.m in Sources */,
+				51F95A1A19C11EC9006B5F17 /* KFSimpleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

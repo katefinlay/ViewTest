@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Kate Finlay. All rights reserved.
 //
 
+#import "KFSimpleView.h"
 #import "KFAppDelegate.h"
 
 @implementation KFAppDelegate
@@ -14,7 +15,21 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // create view
+    CGRect frame1 = CGRectMake(50, 50, 100, 100);
+    KFSimpleView* view1 = [[KFSimpleView alloc] initWithFrame:frame1];
+    view1.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:view1];
+    
+    // create another view
+    CGRect frame2 = CGRectMake(20, 20, 50, 50);
+    KFSimpleView* view2 = [[KFSimpleView alloc] initWithFrame:frame2];
+    view2.backgroundColor = [UIColor blueColor];
+    [view1 addSubview:view2];
+    
+    
+    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
